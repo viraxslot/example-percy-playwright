@@ -23,4 +23,3 @@ jobs:
               run: npm test
               env:
                   PERCY_TOKEN: ${{ secrets.PERCY_TOKEN }}
-                  PERCY_BROWSER_EXECUTABLE: /ms-playwright/chromium-1000
