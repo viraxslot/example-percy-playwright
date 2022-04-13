@@ -30,7 +30,7 @@ test.describe('TodoMVC', function () {
     });
 
     test('Accepts a new todo', async function ({page}) {
-        await page.type('.new-todo', 'New fancy todo 1');
+        await page.type('.new-todo', 'New fancy todo 2');
         await page.keyboard.press('Enter');
 
         let todoCount = await page.evaluate(() => document.querySelectorAll('.todo-list li').length);
